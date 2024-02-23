@@ -23,3 +23,7 @@ console.log(expensiveProducts);
 // find - first product under 50k 
 const affordableProduct = products.find(p => p.price < 50000);
 console.log(affordableProduct);
+
+//  find out the total price by using the reduce()
+const totalPrice = products.reduce((previous,current) => previous + current.price,0);
+console.log(totalPrice);
