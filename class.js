@@ -1,3 +1,5 @@
+// class : class is the template for making objects.
+
 class Products {
   country = 'Bangladesh';
   constructor(name){
